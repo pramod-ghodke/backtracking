@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,500&display=swap');
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    margin: 20px;
+}
+
+p,
+h1 {
+    margin: 0px 0px 16px 0px;
+}
+
+.root-img,
+.method-table {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+pre,
+code {
+    color: rgb(211, 28, 28);
+    font-size: 16px;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/*
+.custom-ol ol {
+    counter-reset: item;
+    padding: 0;
+}
+
+.custom-ol ol li {
+    display: block;
+}
+
+.custom-ol ol li:before {
+    content: " Method "counter(item)".";
+    counter-increment: item;
+    font-weight: bold;
+}
+*/
+
+.method-table {
+    margin-bottom: 20px;
+}
+
+.method-table table,
+.method-table td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.method-table table td#bgblack {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.decore-pre pre i {
+    color: #0000ff;
+}
+
+.decore-pre pre b {
+    color: #000000;
+}
